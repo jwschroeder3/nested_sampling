@@ -6,15 +6,12 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ndarray = { version = "0.15.3", features = ["approx","serde","rayon"] }
-approx = "0.5.0"
-serde_json = "1.0.59"
-serde = { version = "1.0", features = ["derive"] }
 rayon = "1.5.1"
 rand = "0.8.5"
+serde = { version = "1.0.152", features = ["derive"] }
 clap = { version = "3.0", features = ["derive"] }
-bio-anno-rs = { git = "https://github.com/jwschroeder3/bio-anno-rs.git" }
 bisection = "0.1.0"
 ordered-float = "2.10.0"
 statrs = "0.16.0"
+rv = "0.14.3"
 
