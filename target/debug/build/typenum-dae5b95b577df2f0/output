@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/schroedj/src/nested_sampling/target/debug/build/typenum-dae5b95b577df2f0/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/schroedj/src/nested_sampling/target/debug/build/typenum-dae5b95b577df2f0/out/op.rs
